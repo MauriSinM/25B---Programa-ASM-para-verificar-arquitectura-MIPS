@@ -1,3 +1,4 @@
+;NASM válido para x86_64 Linux, compatible con mycompiler.io
 .small
 .stack
 .code
@@ -17,4 +18,5 @@
 		  MOX AX, 4C00H ;
 		  INT 21H
 	  BEGIN ENDP ;
+
 .exit
